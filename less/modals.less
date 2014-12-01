@@ -65,8 +65,8 @@
   z-index: (@zindex-modal-background - 10);
   background-color: @modal-backdrop-bg;
   // Fade for backdrop
-  &.fade { .opacity(0); }
-  &.in { .opacity(.5); }
+  &.fade { .opacity(0); -webkit-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+  &.in { .opacity(.8); -webkit-transition: all 0.5s ease-out; transition: all 0.5s ease-out; -webkit-transition-delay:0.2s; transition-delay:0.2s; }
 }
 
 // Modal header
