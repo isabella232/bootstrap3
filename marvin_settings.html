@@ -1,0 +1,68 @@
+---
+layout: empty
+title: CSS
+slug: margin_settings
+lead: "Global CSS settings, fundamental HTML elements styled and enhanced with extensible classes, and an advanced grid system."
+base_url: "../"
+---
+
+<div id="settings-view">
+    <div id="menu-view" class="scrollable-wrapper">
+        <div class="settings-wrapper scrollable scroll-vertical">
+            <div id="menu">
+                <div id="menu-profile-pic">
+                    <div id="profile-picture-view" class="profile-picture">
+                        <div class="change-picture-wrapper">
+                            <p class="choose-profile-pic-wrapper"><a href="#choose-profile-pic" data-loading-text=" " class="profile-pic-placeholder"><i class="glyphicon glyphicon-user"></i><span class="add-btn btn btn-default btn-xs "></span></a></p>
+                            <p class="choose-profile-pic-button-wrapper"><a href="#choose-profile-pic" class="btn btn-success" data-loading-text="opening gallery..">Choose a profile picture </a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="text-center" style="margin-bottom: 12px;"></h5>
+                
+                <p class="text-center">
+                    <a href="#account-settings"><i class="glyphicon glyphicon-user"></i> edit profile</a>
+                </p>
+                
+                <p class="text-center">
+                    <a href="#logout"><i class="glyphicon glyphicon-log-out"></i> Sign out</a>
+                </p>
+                
+                <p style="margin:40px 0;">
+                    
+                    <a class="btn btn-default btn-block" href="#show-group-list" target="blank">Groups</a><a class="btn btn-default btn-block" href="#show-device-settings" target="blank">Device settings</a>
+                    
+                    <!-- <a class="btn btn-default btn-block" href="#inteligent-services" target="blank">Inteligent services</a> -->
+
+                    <a class="btn btn-default btn-block" href="#give-feedback" target="blank">Give feedback</a>
+
+                    <!-- <a class="btn btn-default btn-block" href="mailto:ella@calendar42.com" target="blank">Give feedback</a> -->
+                </p>
+
+                <h5 class="text-center">Advanced</h5>
+
+                <p>
+                    <a class="btn btn-default btn-block" href="#resync">Resync application</a><a class="btn btn-default btn-block" href="#debug">Debug</a>
+                </p>
+
+            </div>
+
+            <div id="debug-messages-container" class="collapse">
+                
+                <div id="debug-messages" class="alert" style="margin-top:10px"></div>
+
+                <div id="log-buffer-container" class="alert" style="margin-top:10px">
+                    
+                    <h4>Detailed logs</h4>
+
+                    <pre id="log-buffer"></pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
