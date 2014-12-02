@@ -1,0 +1,84 @@
+  /* PROFILE PICK */
+    .choose-profile-pic-button-wrapper{
+        display: none;
+    }
+
+    .profile-picture{
+
+        .choose-profile-pic-wrapper{
+            height:105px;
+        }
+
+        .change-picture-wrapper{
+            display: block;
+            width: 120px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .alert{
+            padding: 10px;
+            margin: 0 17px 20px;
+        }
+
+        .btn.remove-btn{
+            position: absolute;
+            right: -13px;
+            background: #255279;
+            color: #FFF;
+            padding: 14px 17px;
+            top: -11px;
+            border: none;
+            content: "";
+            border-radius: 50%;
+            span{
+                display: none;
+            }
+            &:after{
+                font-family: "c42-icon-font";
+                // content: @c42-icon-cross;
+            }
+            &:hover{
+                background: rgba(21, 75, 158, 0.52) !important;
+                color: #FFF !important;
+            }
+        }
+        .btn.add-btn{
+            position: absolute;
+            display: block;
+            background: #255279;
+            color: #FFF;
+            padding: 12px 17px;
+            top: -11px;
+            right: -13px;
+            border: none;
+            content: "";
+            border-radius: 50%;
+            span{
+                display: none;
+            }
+            &:after{
+                // font-family: "c42-icon-font";
+                content: "+";
+                font-size: 19px;
+                line-height: 1;
+            }
+            &:hover{
+                background: rgba(21, 75, 158, 0.52) !important;
+                color: #FFF !important;
+            }
+        }
+    }
+    .profile-pic-placeholder {
+        .squircle(100px);
+        box-shadow: 2px 2px 0px rgba(115, 115, 115, 0.33);
+        -webkit-box-shadow: 2px 2px 0px rgba(115, 115, 115, 0.33);
+        background-color: @gray-light;
+        display: block;
+        i.glyphicon-user{
+            margin-top: 15px;
+            color: #E4F2FD;
+            font-size: 69px;
+        }
+    }
+    /* END PROFILE PICK */

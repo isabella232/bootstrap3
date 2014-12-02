@@ -1,0 +1,10 @@
+  // SQUIRCLES
+.squircle {
+    display: block;
+    background-color: #E6E6E6;
+}
+.squircle(@size:100px, @exp:2.5, @background: #E6E6E6){
+    background-color: @background;
+    .square(@size);
+    border-radius: (@size/@exp);
+}
